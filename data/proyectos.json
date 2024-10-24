@@ -1,0 +1,61 @@
+{
+    "project-items": [
+        {
+            "title": "Texted alpha",
+            "description": "Un editor de texto desde la terminal",
+            "language": "C",
+            "Platform": "Windows/Unix"
+        },
+        {
+            "title": "ViU - Vi Unimproved",
+            "description": "Vim, pero en JavaScript",
+            "language": "JavaScript", 
+            "Platform": "Web"
+        },
+        {
+            "title": "DrawUI",
+            "description": "Una aplicación de dibujo usando WinUI",
+            "language": "C#, XAML", 
+            "Platform": "Windows"
+        },
+        {
+            "title": "LorocOS - A LFS OS",
+            "description": "Un sistema operativo basado en Linux From Scratch",
+            "language": "Bash", 
+            "Platform": "Linux"
+        },
+        {
+            "title": "Mi Biblioteca",
+            "description": "Sistema de administracion de una biblioteca",
+            "language": "C#", 
+            "Platform": "Windows"
+        },
+        {
+            "title": "TacoByte",
+            "description": "Una plantilla para reservas de restaurantes",
+            "language": "JavaScript", 
+            "Platform": "Web" 
+        },
+        {
+            "title": "The Fast Recipe",
+            "description": "Una página web para buscar recetas para estudiantes",
+            "language":  "HTML",
+            "Platform": "Web"
+        },
+        {
+            "title": "Sistema de Inscripción",
+            "description": "Una aplicación para la inscripción de materias universitarias",
+            "language": "C#", 
+            "Platform": "Windows"
+        },
+        {
+            "title": "Auto-Invernadero",
+            "description": "Un invernadero automático hecho con Arduino",
+            "language": "C++", 
+            "Platform": "Arduino"
+        }
+
+    ]
+    
+    
+}

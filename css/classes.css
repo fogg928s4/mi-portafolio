@@ -1,3 +1,38 @@
+/*whom contains the other ones*/
 .content{
     display: flex;
+    width: 100%;
+    
+}
+/*lil sidebar for navigation*/
+.sidebar {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #C5C6CB;
+    color: black;
+    height:100%;
+    width: 10%;
+    border-radius: 3%;
+}
+.sidebar img{
+    width: 50px;
+    height: 50px;
+    border-radius: 3px;
+    padding: 2vh 2vh 2vh 2vh;
+    border: 3px solid transparent;
+    margin: 2vh 0vh 1vh 0vh;
+}
+
+.sidebar img:hover{
+    border: 3px solid #1a1a81;
+}
+
+/*where the content will go*/
+.canva {
+    position: relative;
+    display: block;
+    width: 80%;
+    padding: 0px 5% 5% 5%;
+    
 }
