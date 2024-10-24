@@ -21,11 +21,15 @@
     border-radius: 3px;
     padding: 2vh 2vh 2vh 2vh;
     border: 3px solid transparent;
-    margin: 2vh 0vh 1vh 0vh;
+    margin: 3vh 0vh 0vh 0vh;
+    text-align: center;
 }
-
 .sidebar img:hover{
     border: 3px solid #1a1a81;
+}
+.sidebar p{
+    margin: 0vh 0vh 0vh 3vh;
+    text-align: center;
 }
 
 /*where the content will go*/
