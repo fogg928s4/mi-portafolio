@@ -1,61 +1,68 @@
 {
-    "project-items": [
+    "items": [
         {
             "title": "Texted alpha",
             "description": "Un editor de texto desde la terminal",
             "language": "C",
-            "Platform": "Windows/Unix"
+            "Platform": "Linux",
+            "link": "https://github.com/fogg928s4/texted"
         },
         {
             "title": "ViU - Vi Unimproved",
             "description": "Vim, pero en JavaScript",
             "language": "JavaScript", 
-            "Platform": "Web"
+            "Platform": "Web",
+            "link": "https://github.com/fogg928s4/viu"
         },
         {
             "title": "DrawUI",
             "description": "Una aplicación de dibujo usando WinUI",
-            "language": "C#, XAML", 
-            "Platform": "Windows"
+            "language": "C#", 
+            "Platform": "Windows",
+            "link": "https://github.com/fogg928s4/DrawUI"
         },
         {
-            "title": "LorocOS - A LFS OS",
+            "title": "LorocOS",
             "description": "Un sistema operativo basado en Linux From Scratch",
             "language": "Bash", 
-            "Platform": "Linux"
+            "Platform": "Linux",
+            "link": "https://github.com/fogg928s4/lorocoLFS"
         },
         {
             "title": "Mi Biblioteca",
             "description": "Sistema de administracion de una biblioteca",
             "language": "C#", 
-            "Platform": "Windows"
+            "Platform": "Windows",
+            "link": "https://github.com/fogg928s4/mi-biblioteca-udb"
         },
         {
             "title": "TacoByte",
             "description": "Una plantilla para reservas de restaurantes",
             "language": "JavaScript", 
-            "Platform": "Web" 
+            "Platform": "Web" ,
+            "link": "https://github.com/fogg928s4/Taco-Byte"
         },
         {
             "title": "The Fast Recipe",
             "description": "Una página web para buscar recetas para estudiantes",
             "language":  "HTML",
-            "Platform": "Web"
+            "Platform": "Web",
+            "link": "https://github.com/fogg928s4/fastrecipe"
         },
         {
             "title": "Sistema de Inscripción",
             "description": "Una aplicación para la inscripción de materias universitarias",
             "language": "C#", 
-            "Platform": "Windows"
+            "Platform": "Windows",
+            "link": "https://github.com/fogg928s4/inscripcion"
         },
         {
             "title": "Auto-Invernadero",
             "description": "Un invernadero automático hecho con Arduino",
             "language": "C++", 
-            "Platform": "Arduino"
+            "Platform": "Arduino",
+            "link": "https://github.com/fogg928s4/aco-catedra"
         }
 
-    ]
-    
-    
+    ]    
 }
