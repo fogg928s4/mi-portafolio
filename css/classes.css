@@ -28,7 +28,7 @@
     border: 3px solid #1a1a81;
 }
 .sidebar p{
-    margin: 0vh 0vh 0vh 3vh;
+    margin: 0vh 0vh 2vh 3vh;
     text-align: center;
 }
 
@@ -39,4 +39,8 @@
     width: 80%;
     padding: 0px 5% 5% 5%;
     
+}
+.canva img {
+    width: 900px;
+    height: 500px;
 }
