@@ -21,7 +21,7 @@
         {
             "title": "DrawUI",
             "description": "Una aplicación de dibujo usando WinUI",
-            "language": "C#", 
+            "language": "CSharp", 
             "Platform": "Windows",
             "link": "https://github.com/fogg928s4/DrawUI",
             "image": "img/DrawIT.png",
@@ -39,7 +39,7 @@
         {
             "title": "Mi Biblioteca",
             "description": "Sistema de administracion de una biblioteca",
-            "language": "C#", 
+            "language": "CSharp", 
             "Platform": "Windows",
             "link": "https://github.com/fogg928s4/mi-biblioteca-udb",
             "image": "img/biblioteca.png",
@@ -66,10 +66,10 @@
         {
             "title": "Sistema de Inscripción",
             "description": "Una aplicación para la inscripción de materias universitarias",
-            "language": "C#", 
+            "language": "CSharp", 
             "Platform": "Windows",
-            "link": "https://github.com/fogg928s4/inscripcion",
-            "image": "img/incripcion.png",
+            "link": "https://github.com/fogg928s4/inscripcion-udb",
+            "image": "img/inscripcion.png",
             "info": "Esta aplicación está hecha con Windows Forms y permite a estudiantes universitarios inscribirse a sus clases según requerimientos de carrera y horario. La aplicación admite diferentes tipos de usuarios que tienen acceso a diferentes funciones e información según su rol. Estos roles se dividen principalmente en estudiantes, profesores y administrador. El programa cuenta con una conexión a una base de datos local en MS SQL Server."
         },
         {
