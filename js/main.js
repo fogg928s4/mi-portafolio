@@ -10,7 +10,7 @@ function init() {
     //fill the icon list
     
 
-    for(let i = 0; i<9; i++){
+    for(let i = 0; i<proyectsInfo.length; i++){
         navBar.innerHTML += "<a id \"" + i + "\"> <img src=\"img/icons/icon" +i + ".png\"/></a>"
         navBar.innerHTML += "<p>" + proyectsInfo[i].title +"</p>";
     }

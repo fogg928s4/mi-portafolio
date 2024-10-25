@@ -19,7 +19,8 @@ function ajaxRequest(){
 }
 //call what we jsut did
 //yeah so the JSON decided not to work so well just raw it idec atp
-   let proyectsInfo = [{
+let proyectsInfo = [
+    {
         "title": "Texted alpha",
         "description": "Un editor de texto desde la terminal",
         "language": "C",
@@ -99,4 +100,4 @@ function ajaxRequest(){
         "link": "https://github.com/fogg928s4/aco-catedra",
         "image": "img/arduino.png",
         "info": "Este proyecto universitario tenía como objetivo la creación de un invernadero automático con el uso de Arduino. Por su naturaleza, el proyecto fue hecho con C++ y luego cargado al Arduino. La imagen que aparece es el modelo del proyecto en TinkerCad con el código del mismo a la derecha. El sistema permite la verificación manual de las distintas condiciones ambientales como temperatura, humedad del suelo, nivel de luz, y también cuenta con un modo automático que realiza distintas acciones con tal de adecuar las condiciones anteriormente mencionadas. Paralelamente, el proyecto incluye un sistema de cerradura para evitar el acceso no permitido al invernadero."
-    }];
+}];

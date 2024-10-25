@@ -1,9 +1,14 @@
 body {
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: "Cabin", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
     /*ackground-color: #214541;*/
     background-color: #2d5d58;
     color: white;
-    
+    margin: 0px;
     
 }
 
@@ -18,7 +23,13 @@ header {
 
 h1 {
     font-size: 25px;
+    
 }
 img {
     border-radius: 10px;
+}
+
+@font-face {
+    font-family: 'Gill Sans';
+    src: url('../fonts/Gill/Gill\ Sans.otf');
 }
