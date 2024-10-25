@@ -69,7 +69,7 @@ function ajaxRequest(){
         "description": "Una plantilla para reservas de restaurantes",
         "language": "JavaScript", 
         "Platform": "Web" ,
-        "link": "https://github.com/fogg928s4/Taco-Byte",
+        "link": "https://github.com/alberrtval/Taco-Byte",
         "image": "img/taco-byte.png",
         "info": "Esta aplicación web hecha con React está hecha como una plantilla para restaurantes que deseen adaptar un sistema de reserva de mesas a su inventario. El programa posee varias ventanas que incluyen una landing page, galería, un menú, contacto y la página destinada a la reserva de mesas. El proyecto realiza todas sus operaciones de manera local."
     },
