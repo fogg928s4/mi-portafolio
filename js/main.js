@@ -8,6 +8,7 @@ const canva = document.getElementById("canva");
 
 function init() {
     //fill the icon list
+    
     for(let i = 0; i<9; i++){
         navBar.innerHTML += "<a id \"" + i + "\"> <img src=\"img/icons/icon" +i + ".png\"/></a>"
         navBar.innerHTML += "<p>" + proyectsInfo[i].title +"</p>";
@@ -19,7 +20,7 @@ function init() {
             putData(i);
         }, false);
     }
-    
+    //captura.src = "landing.png";
 }
 
 window.addEventListener("load", init, false);

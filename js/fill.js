@@ -4,9 +4,11 @@ const plataforma = document.getElementById("platform");
 const repoL = document.getElementById("repo");
 const captura = document.getElementById("screenshot");
 const informacion = document.getElementById("info");
+const lenguaje = document.getElementById("language")
+
 
 function putData(objID) {
-    //writes into it
+    //writes into it the info from the JSON
     titulo.innerHTML = proyectsInfo[objID].title;
     descripcion.innerHTML = proyectsInfo[objID].description;
     captura.src = proyectsInfo[objID].image;
@@ -16,7 +18,8 @@ function putData(objID) {
     repoL.href = proyectsInfo[objID].link;
 
     informacion.innerHTML = proyectsInfo[objID].info;
+    lenguaje.src = "img/lang/" + proyectsInfo[objID].language + ".png";
 
-    //and make the request when clicked
-    console.log(proyectsInfo[objID].title);
+    
+    
 }
