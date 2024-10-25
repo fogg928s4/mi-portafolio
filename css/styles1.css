@@ -1,7 +1,10 @@
 body {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #214541;
+    /*ackground-color: #214541;*/
+    background-color: #2d5d58;
     color: white;
+    
+    
 }
 
 header {
@@ -10,8 +13,12 @@ header {
     border-bottom: 4px solid black;
     background-color: #31506a;
     width: 100%;
+    
 }
 
 h1 {
     font-size: 25px;
+}
+img {
+    border-radius: 10px;
 }
