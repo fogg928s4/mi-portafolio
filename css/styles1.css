@@ -28,8 +28,7 @@ h1 {
 img {
     border-radius: 10px;
 }
-
-@font-face {
-    font-family: 'Gill Sans';
-    src: url('../fonts/Gill/Gill\ Sans.otf');
+footer {
+    font-style: italic;
+    margin: 2vh 2vh 2vh 2vh;
 }

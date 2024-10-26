@@ -21,20 +21,34 @@
     width: 50px;
     height: 50px;
     border-radius: 3px;
-    padding: 2vh 2vh 2vh 2vh;
+    padding: 0vh 0vh 2vh 0vh;
     border: 3px solid transparent;
+
     margin: 3vh 0vh 0vh 0vh;
     text-align: center;
 }
-.sidebar img:hover{
-    border: 3px solid #1a1a81;
-    cursor: pointer;
-}
+
+
 .sidebar p{
-    margin: 0vh 0vh 2vh 3vh;
+    margin: 0vh 0vh 2vh 0ch;
     text-align: center;
 }
 
+
+.menu-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 3px solid transparent;
+    margin: 5px;
+    width: 100%;
+}
+.menu-items:hover{
+    border: 3px solid #1a1a81;
+    cursor: pointer;
+    background-color: #999999;
+}
 
 /*where the content will go*/
 .canva {
@@ -62,6 +76,8 @@
     width: 50px;
     height: 50px;
 }
+
+
 /*for that liliconin the link*/
 .repo-link{
     display: flex;

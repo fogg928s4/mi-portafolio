@@ -1,23 +1,30 @@
-let navBar = document.getElementById("sidebar");
+const navBar = document.getElementById("sidebar");
 let links = document.getElementsByTagName("a");
 
 //variables from elements
 const canva = document.getElementById("canva");
 
-
+//this will contain the img and the zelda
+let itemsMenu = document.getElementsByClassName("menu-items");
 
 function init() {
     //fill the icon list
     
-
+    //first create the buttons
     for(let i = 0; i<proyectsInfo.length; i++){
-        navBar.innerHTML += "<a id \"" + i + "\"> <img src=\"img/icons/icon" +i + ".png\"/></a>"
-        navBar.innerHTML += "<p>" + proyectsInfo[i].title +"</p>";
+        //creates a button, that will contain the a and the p
+        navBar.innerHTML += "<div class= \"menu-items\">";
+        navBar.innerHTML += "</div>";    
     }
+    for(let i = 0; i < itemsMenu.length; i++){
+        itemsMenu[i].innerHTML += "<a id \"" + i + "\"> <img src=\"img/icons/icon" +i + ".png\"/></a>"
+        itemsMenu[i].innerHTML += "<p>" + proyectsInfo[i].title +"</p>";
+    }
+    
     //adding event listener to all 
-    for (let i = 0; i < links.length; i++) {
-        links[i].addEventListener("click", function(event) {
-            
+    //ik they look like similar loop byt they are not, the former one MUST go first
+    for (let i = 0; i < proyectsInfo.length; i++) {
+        itemsMenu[i].addEventListener("click", function(event) {
             putData(i);
         }, false);
     }
